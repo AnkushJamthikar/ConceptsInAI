@@ -6,3 +6,6 @@ Both are generators. model.children() returns layers in the model that can be fu
 
 ## 2. What is the difference between * and ** in python? 
 '*' is the iterable unpacking operator and '**' is the dictionary unpacking operator 
+
+## 3. How to change the diamension of the image tensor from (C,W,H) to (1,C,W,H) and vice-versa? 
+torch.unsqueeze() and torch.squeeze() are two important functions that changes the diamension of the pytorch tensors
