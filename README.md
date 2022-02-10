@@ -5,4 +5,4 @@ This repository contains common questions and their answers in several AI-relate
 Both are generators. model.children() returns layers in the model that can be further used to extract parameters. model.parameters() directly returns parameters in the tensor format. 
 
 # 2. What is the difference between * and ** in python? 
-* is the iterable unpacking operator and ** is the dictionary unpacking operator 
+'*' is the iterable unpacking operator and '**' is the dictionary unpacking operator 
